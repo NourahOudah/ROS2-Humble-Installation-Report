@@ -19,7 +19,7 @@ This report explains the installation process of Ubuntu 22.04 LTS and ROS 2 Humb
 
 The installation started by enabling Windows Subsystem for Linux (WSL) and downloading Ubuntu 22.04 LTS.
 
-![Step 1](images/pcer1.PNG)
+![Step 1](images/pcer1.png)
 
 ---
 
@@ -27,7 +27,7 @@ The installation started by enabling Windows Subsystem for Linux (WSL) and downl
 
 After the installation finished, a new Linux username and password were created.
 
-![Step 2](images/pcter2.PNG)
+![Step 2](images/pcter2.png)
 
 ---
 
@@ -38,7 +38,7 @@ lsb_release -a
 
 The result confirmed that the installed version is Ubuntu 22.04 LTS.
 
-![Step 3](images/pcter3.PNG)
+![Step 3](images/pcter3.png)
 
 ---
 
@@ -47,7 +47,7 @@ The result confirmed that the installed version is Ubuntu 22.04 LTS.
 The operating system packages were updated before installing ROS 2.
 sudo apt update && sudo apt upgrade
 
-![Step 4](images/pc4.PNG)
+![Step 4](images/pc4.png)
 
 ---
 
@@ -56,7 +56,7 @@ sudo apt update && sudo apt upgrade
 The required packages were installed before installing ROS 2.
 sudo apt install software-properties-common curl
 
-![Step 5](images/pc5.PNG)
+![Step 5](images/pc5.png)
 
 ---
 
@@ -65,7 +65,7 @@ sudo apt install software-properties-common curl
 ROS 2 Humble Desktop was installed successfully.
 sudo apt install ros-humble-desktop
 
-![Step 6](images/pc5.PNG)
+![Step 6](images/pc5.png)
 
 ---
 
@@ -75,7 +75,7 @@ ROS 2 was added to the bash configuration file.
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-![Step 7](images/pcer12.PNG)
+![Step 7](images/pcer12.png)
 
 ---
 
@@ -89,7 +89,7 @@ humble
 
 This confirms that ROS 2 Humble was installed successfully.
 
-![Step 8](images/pcter11.PNG)
+![Step 8](images/pcter11.png)
 
 ---
 
