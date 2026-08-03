@@ -19,7 +19,7 @@ This report explains the installation process of Ubuntu 22.04 LTS and ROS 2 Humb
 
 The installation started by enabling Windows Subsystem for Linux (WSL) and downloading Ubuntu 22.04 LTS.
 
-![Step 1](images/01-install.png)
+![Step 1](images/pcer1.png)
 
 ---
 
@@ -27,7 +27,7 @@ The installation started by enabling Windows Subsystem for Linux (WSL) and downl
 
 After the installation finished, a new Linux username and password were created.
 
-![Step 2](images/02-user.png)
+![Step 2](images/pcter2.png)
 
 ---
 
@@ -38,7 +38,7 @@ lsb_release -a
 
 The result confirmed that the installed version is Ubuntu 22.04 LTS.
 
-![Step 3](images/03-version.png)
+![Step 3](images/pcter3.png)
 
 ---
 
