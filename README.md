@@ -47,7 +47,7 @@ The result confirmed that the installed version is Ubuntu 22.04 LTS.
 The operating system packages were updated before installing ROS 2.
 sudo apt update && sudo apt upgrade
 
-![Step 4](images/04-update.png)
+![Step 4](images/pc4.png)
 
 ---
 
@@ -56,7 +56,7 @@ sudo apt update && sudo apt upgrade
 The required packages were installed before installing ROS 2.
 sudo apt install software-properties-common curl
 
-![Step 5](images/05-packages.png)
+![Step 5](images/pc5.png)
 
 ---
 
@@ -65,7 +65,7 @@ sudo apt install software-properties-common curl
 ROS 2 Humble Desktop was installed successfully.
 sudo apt install ros-humble-desktop
 
-![Step 6](images/06-ros-install.png)
+![Step 6](images/pc5.png)
 
 ---
 
@@ -75,7 +75,7 @@ ROS 2 was added to the bash configuration file.
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-![Step 7](images/07-source.png)
+![Step 7](images/pcer12.png)
 
 ---
 
@@ -89,7 +89,7 @@ humble
 
 This confirms that ROS 2 Humble was installed successfully.
 
-![Step 8](images/08-result.png)
+![Step 8](images/pcter11.png)
 
 ---
 
