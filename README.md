@@ -14,13 +14,11 @@ A step-by-step installation report for Ubuntu 22.04 LTS and ROS 2 Humble using W
 This report explains the installation process of Ubuntu 22.04 LTS and ROS 2 Humble using Windows Subsystem for Linux (WSL). The installation was completed successfully by following the provided instructions.
 
 ---
-
 # Step 1: Install Ubuntu 22.04
 
 The installation started by enabling Windows Subsystem for Linux (WSL) and downloading Ubuntu 22.04 LTS.
 
-
-![Step 2](images/pcter2.png)
+![Step 1](images/image%20step%201.png)
 
 ---
 
@@ -28,7 +26,7 @@ The installation started by enabling Windows Subsystem for Linux (WSL) and downl
 
 After the installation finished, a new Linux username and password were created.
 
-![Step 2](images/pcter2.png)
+![Step 2](images/image%20step%202.png)
 
 ---
 
@@ -39,7 +37,7 @@ lsb_release -a
 
 The result confirmed that the installed version is Ubuntu 22.04 LTS.
 
-![Step 3](images/pcter3.png)
+![Step 3](images/image%20step%203.png)
 
 ---
 
@@ -48,7 +46,7 @@ The result confirmed that the installed version is Ubuntu 22.04 LTS.
 The operating system packages were updated before installing ROS 2.
 sudo apt update && sudo apt upgrade
 
-![Step 4](images/pc4.png)
+![Step 4](images/image%20step%204.png)
 
 ---
 
@@ -57,7 +55,7 @@ sudo apt update && sudo apt upgrade
 The required packages were installed before installing ROS 2.
 sudo apt install software-properties-common curl
 
-![Step 5](images/pc5.png)
+![Step 5](images/image%20step%205%20and%206.png)
 
 ---
 
@@ -66,7 +64,7 @@ sudo apt install software-properties-common curl
 ROS 2 Humble Desktop was installed successfully.
 sudo apt install ros-humble-desktop
 
-![Step 6](images/pc5.png)
+![Step 6](images/image%20step%205%20and%206.png)
 
 ---
 
@@ -76,7 +74,7 @@ ROS 2 was added to the bash configuration file.
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-![Step 7](images/pcer12.png)
+![Step 7](images/image%20step%207.png)
 
 ---
 
@@ -90,9 +88,7 @@ humble
 
 This confirms that ROS 2 Humble was installed successfully.
 
-![Step 8](images/pcter11.png)
-
----
+![Step 8](images/image%20step%208.png)
 
 # Problems Encountered
 
