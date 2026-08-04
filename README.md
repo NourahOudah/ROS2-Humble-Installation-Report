@@ -12,7 +12,6 @@ A step-by-step installation report for Ubuntu 22.04 LTS and ROS 2 Humble using W
 # Introduction
 
 This report explains the installation process of Ubuntu 22.04 LTS and ROS 2 Humble using Windows Subsystem for Linux (WSL). The installation was completed successfully by following the provided instructions.
-
 ---
 
 # Step 1: Install Ubuntu 22.04
